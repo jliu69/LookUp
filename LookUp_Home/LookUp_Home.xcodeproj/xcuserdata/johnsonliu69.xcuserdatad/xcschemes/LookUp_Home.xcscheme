@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D0E0C9D1DC64FF900707CFC"
-               BuildableName = "LookUp_Home.app"
+               BuildableName = "LookUp.app"
                BlueprintName = "LookUp_Home"
                ReferencedContainer = "container:LookUp_Home.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D0E0C9D1DC64FF900707CFC"
-            BuildableName = "LookUp_Home.app"
+            BuildableName = "LookUp.app"
             BlueprintName = "LookUp_Home"
             ReferencedContainer = "container:LookUp_Home.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D0E0C9D1DC64FF900707CFC"
-            BuildableName = "LookUp_Home.app"
+            BuildableName = "LookUp.app"
             BlueprintName = "LookUp_Home"
             ReferencedContainer = "container:LookUp_Home.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D0E0C9D1DC64FF900707CFC"
-            BuildableName = "LookUp_Home.app"
+            BuildableName = "LookUp.app"
             BlueprintName = "LookUp_Home"
             ReferencedContainer = "container:LookUp_Home.xcodeproj">
          </BuildableReference>

@@ -13,6 +13,47 @@
 		9D0E0CAC1DC64FFA00707CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0CAA1DC64FFA00707CFC /* Main.storyboard */; };
 		9D0E0CAE1DC64FFA00707CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0CAD1DC64FFA00707CFC /* Assets.xcassets */; };
 		9D0E0CB11DC64FFA00707CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0CAF1DC64FFA00707CFC /* LaunchScreen.storyboard */; };
+		9D0E0EFE1DC6623300707CFC /* AddEditRecruiter2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB11DC6623300707CFC /* AddEditRecruiter2Cell.m */; };
+		9D0E0EFF1DC6623300707CFC /* AddEditRecruiter2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB21DC6623300707CFC /* AddEditRecruiter2Cell.xib */; };
+		9D0E0F001DC6623300707CFC /* AddEditRecruiter2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB41DC6623300707CFC /* AddEditRecruiter2ViewController.m */; };
+		9D0E0F011DC6623300707CFC /* AddEditRecruiter2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB51DC6623300707CFC /* AddEditRecruiter2ViewController.xib */; };
+		9D0E0F021DC6623300707CFC /* AddNewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB71DC6623300707CFC /* AddNewManager.m */; };
+		9D0E0F031DC6623300707CFC /* CallsInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EB91DC6623300707CFC /* CallsInfoManager.m */; };
+		9D0E0F041DC6623300707CFC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EBB1DC6623300707CFC /* Constants.m */; };
+		9D0E0F051DC6623300707CFC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EBD1DC6623300707CFC /* DataManager.m */; };
+		9D0E0F061DC6623300707CFC /* DateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EBF1DC6623300707CFC /* DateSelectionViewController.m */; };
+		9D0E0F071DC6623300707CFC /* DateSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC01DC6623300707CFC /* DateSelectionViewController.xib */; };
+		9D0E0F081DC6623300707CFC /* DeleteCallsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC21DC6623300707CFC /* DeleteCallsManager.m */; };
+		9D0E0F091DC6623300707CFC /* DeleteRecruiterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC41DC6623300707CFC /* DeleteRecruiterManager.m */; };
+		9D0E0F0A1DC6623300707CFC /* EditCallsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC61DC6623300707CFC /* EditCallsManager.m */; };
+		9D0E0F0B1DC6623300707CFC /* EnterCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC81DC6623300707CFC /* EnterCommentsViewController.m */; };
+		9D0E0F0C1DC6623300707CFC /* EnterCommentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EC91DC6623300707CFC /* EnterCommentsViewController.xib */; };
+		9D0E0F0D1DC6623300707CFC /* LoginUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ECB1DC6623300707CFC /* LoginUserManager.m */; };
+		9D0E0F0E1DC6623300707CFC /* LookupRecruitersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ECD1DC6623300707CFC /* LookupRecruitersManager.m */; };
+		9D0E0F0F1DC6623300707CFC /* RecruiterCallsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ECF1DC6623300707CFC /* RecruiterCallsModel.m */; };
+		9D0E0F101DC6623300707CFC /* RecruiterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ED11DC6623300707CFC /* RecruiterCell.m */; };
+		9D0E0F111DC6623300707CFC /* RecruiterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0ED21DC6623300707CFC /* RecruiterCell.xib */; };
+		9D0E0F121DC6623300707CFC /* RecruiterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ED41DC6623300707CFC /* RecruiterModel.m */; };
+		9D0E0F131DC6623300707CFC /* RecruitersHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ED61DC6623300707CFC /* RecruitersHelper.m */; };
+		9D0E0F141DC6623300707CFC /* RegisterUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0ED81DC6623300707CFC /* RegisterUserManager.m */; };
+		9D0E0F151DC6623300707CFC /* SaveCalls2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EDA1DC6623300707CFC /* SaveCalls2Cell.m */; };
+		9D0E0F161DC6623300707CFC /* SaveCalls2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EDB1DC6623300707CFC /* SaveCalls2Cell.xib */; };
+		9D0E0F171DC6623300707CFC /* SaveCalls2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EDD1DC6623300707CFC /* SaveCalls2Model.m */; };
+		9D0E0F1A1DC6623300707CFC /* SaveCalls3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EE21DC6623300707CFC /* SaveCalls3ViewController.m */; };
+		9D0E0F1B1DC6623300707CFC /* SaveCalls3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EE31DC6623300707CFC /* SaveCalls3ViewController.xib */; };
+		9D0E0F1C1DC6623300707CFC /* SaveCallsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EE51DC6623300707CFC /* SaveCallsManager.m */; };
+		9D0E0F1F1DC6623300707CFC /* SearchContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EEA1DC6623300707CFC /* SearchContentManager.m */; };
+		9D0E0F201DC6623300707CFC /* SearchDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EEC1DC6623300707CFC /* SearchDateManager.m */; };
+		9D0E0F211DC6623300707CFC /* SearchNameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EEE1DC6623300707CFC /* SearchNameManager.m */; };
+		9D0E0F221DC6623300707CFC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF01DC6623300707CFC /* SearchViewController.m */; };
+		9D0E0F231DC6623300707CFC /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF11DC6623300707CFC /* SearchViewController.xib */; };
+		9D0E0F241DC6623300707CFC /* StringEscapeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF31DC6623300707CFC /* StringEscapeModel.m */; };
+		9D0E0F251DC6623300707CFC /* UpdateExistingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF51DC6623300707CFC /* UpdateExistingManager.m */; };
+		9D0E0F261DC6623300707CFC /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF71DC6623300707CFC /* UserLoginViewController.m */; };
+		9D0E0F271DC6623300707CFC /* UserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EF81DC6623300707CFC /* UserLoginViewController.xib */; };
+		9D0E0F281DC6623300707CFC /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EFA1DC6623300707CFC /* UserModel.m */; };
+		9D0E0F291DC6623300707CFC /* UserRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E0EFC1DC6623300707CFC /* UserRegisterViewController.m */; };
+		9D0E0F2A1DC6623300707CFC /* UserRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E0EFD1DC6623300707CFC /* UserRegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +67,78 @@
 		9D0E0CAD1DC64FFA00707CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0E0CB01DC64FFA00707CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0E0CB21DC64FFB00707CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D0E0EB01DC6623300707CFC /* AddEditRecruiter2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditRecruiter2Cell.h; sourceTree = "<group>"; };
+		9D0E0EB11DC6623300707CFC /* AddEditRecruiter2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditRecruiter2Cell.m; sourceTree = "<group>"; };
+		9D0E0EB21DC6623300707CFC /* AddEditRecruiter2Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditRecruiter2Cell.xib; sourceTree = "<group>"; };
+		9D0E0EB31DC6623300707CFC /* AddEditRecruiter2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditRecruiter2ViewController.h; sourceTree = "<group>"; };
+		9D0E0EB41DC6623300707CFC /* AddEditRecruiter2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditRecruiter2ViewController.m; sourceTree = "<group>"; };
+		9D0E0EB51DC6623300707CFC /* AddEditRecruiter2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditRecruiter2ViewController.xib; sourceTree = "<group>"; };
+		9D0E0EB61DC6623300707CFC /* AddNewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewManager.h; sourceTree = "<group>"; };
+		9D0E0EB71DC6623300707CFC /* AddNewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewManager.m; sourceTree = "<group>"; };
+		9D0E0EB81DC6623300707CFC /* CallsInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallsInfoManager.h; sourceTree = "<group>"; };
+		9D0E0EB91DC6623300707CFC /* CallsInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallsInfoManager.m; sourceTree = "<group>"; };
+		9D0E0EBA1DC6623300707CFC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		9D0E0EBB1DC6623300707CFC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		9D0E0EBC1DC6623300707CFC /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		9D0E0EBD1DC6623300707CFC /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		9D0E0EBE1DC6623300707CFC /* DateSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSelectionViewController.h; sourceTree = "<group>"; };
+		9D0E0EBF1DC6623300707CFC /* DateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSelectionViewController.m; sourceTree = "<group>"; };
+		9D0E0EC01DC6623300707CFC /* DateSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateSelectionViewController.xib; sourceTree = "<group>"; };
+		9D0E0EC11DC6623300707CFC /* DeleteCallsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteCallsManager.h; sourceTree = "<group>"; };
+		9D0E0EC21DC6623300707CFC /* DeleteCallsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteCallsManager.m; sourceTree = "<group>"; };
+		9D0E0EC31DC6623300707CFC /* DeleteRecruiterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteRecruiterManager.h; sourceTree = "<group>"; };
+		9D0E0EC41DC6623300707CFC /* DeleteRecruiterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteRecruiterManager.m; sourceTree = "<group>"; };
+		9D0E0EC51DC6623300707CFC /* EditCallsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCallsManager.h; sourceTree = "<group>"; };
+		9D0E0EC61DC6623300707CFC /* EditCallsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCallsManager.m; sourceTree = "<group>"; };
+		9D0E0EC71DC6623300707CFC /* EnterCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterCommentsViewController.h; sourceTree = "<group>"; };
+		9D0E0EC81DC6623300707CFC /* EnterCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterCommentsViewController.m; sourceTree = "<group>"; };
+		9D0E0EC91DC6623300707CFC /* EnterCommentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterCommentsViewController.xib; sourceTree = "<group>"; };
+		9D0E0ECA1DC6623300707CFC /* LoginUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUserManager.h; sourceTree = "<group>"; };
+		9D0E0ECB1DC6623300707CFC /* LoginUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUserManager.m; sourceTree = "<group>"; };
+		9D0E0ECC1DC6623300707CFC /* LookupRecruitersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupRecruitersManager.h; sourceTree = "<group>"; };
+		9D0E0ECD1DC6623300707CFC /* LookupRecruitersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookupRecruitersManager.m; sourceTree = "<group>"; };
+		9D0E0ECE1DC6623300707CFC /* RecruiterCallsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecruiterCallsModel.h; sourceTree = "<group>"; };
+		9D0E0ECF1DC6623300707CFC /* RecruiterCallsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruiterCallsModel.m; sourceTree = "<group>"; };
+		9D0E0ED01DC6623300707CFC /* RecruiterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecruiterCell.h; sourceTree = "<group>"; };
+		9D0E0ED11DC6623300707CFC /* RecruiterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruiterCell.m; sourceTree = "<group>"; };
+		9D0E0ED21DC6623300707CFC /* RecruiterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecruiterCell.xib; sourceTree = "<group>"; };
+		9D0E0ED31DC6623300707CFC /* RecruiterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecruiterModel.h; sourceTree = "<group>"; };
+		9D0E0ED41DC6623300707CFC /* RecruiterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruiterModel.m; sourceTree = "<group>"; };
+		9D0E0ED51DC6623300707CFC /* RecruitersHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecruitersHelper.h; sourceTree = "<group>"; };
+		9D0E0ED61DC6623300707CFC /* RecruitersHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitersHelper.m; sourceTree = "<group>"; };
+		9D0E0ED71DC6623300707CFC /* RegisterUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterUserManager.h; sourceTree = "<group>"; };
+		9D0E0ED81DC6623300707CFC /* RegisterUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterUserManager.m; sourceTree = "<group>"; };
+		9D0E0ED91DC6623300707CFC /* SaveCalls2Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCalls2Cell.h; sourceTree = "<group>"; };
+		9D0E0EDA1DC6623300707CFC /* SaveCalls2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCalls2Cell.m; sourceTree = "<group>"; };
+		9D0E0EDB1DC6623300707CFC /* SaveCalls2Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveCalls2Cell.xib; sourceTree = "<group>"; };
+		9D0E0EDC1DC6623300707CFC /* SaveCalls2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCalls2Model.h; sourceTree = "<group>"; };
+		9D0E0EDD1DC6623300707CFC /* SaveCalls2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCalls2Model.m; sourceTree = "<group>"; };
+		9D0E0EE11DC6623300707CFC /* SaveCalls3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCalls3ViewController.h; sourceTree = "<group>"; };
+		9D0E0EE21DC6623300707CFC /* SaveCalls3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCalls3ViewController.m; sourceTree = "<group>"; };
+		9D0E0EE31DC6623300707CFC /* SaveCalls3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveCalls3ViewController.xib; sourceTree = "<group>"; };
+		9D0E0EE41DC6623300707CFC /* SaveCallsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveCallsManager.h; sourceTree = "<group>"; };
+		9D0E0EE51DC6623300707CFC /* SaveCallsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveCallsManager.m; sourceTree = "<group>"; };
+		9D0E0EE91DC6623300707CFC /* SearchContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchContentManager.h; sourceTree = "<group>"; };
+		9D0E0EEA1DC6623300707CFC /* SearchContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchContentManager.m; sourceTree = "<group>"; };
+		9D0E0EEB1DC6623300707CFC /* SearchDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDateManager.h; sourceTree = "<group>"; };
+		9D0E0EEC1DC6623300707CFC /* SearchDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDateManager.m; sourceTree = "<group>"; };
+		9D0E0EED1DC6623300707CFC /* SearchNameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchNameManager.h; sourceTree = "<group>"; };
+		9D0E0EEE1DC6623300707CFC /* SearchNameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchNameManager.m; sourceTree = "<group>"; };
+		9D0E0EEF1DC6623300707CFC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9D0E0EF01DC6623300707CFC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9D0E0EF11DC6623300707CFC /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		9D0E0EF21DC6623300707CFC /* StringEscapeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringEscapeModel.h; sourceTree = "<group>"; };
+		9D0E0EF31DC6623300707CFC /* StringEscapeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringEscapeModel.m; sourceTree = "<group>"; };
+		9D0E0EF41DC6623300707CFC /* UpdateExistingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateExistingManager.h; sourceTree = "<group>"; };
+		9D0E0EF51DC6623300707CFC /* UpdateExistingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateExistingManager.m; sourceTree = "<group>"; };
+		9D0E0EF61DC6623300707CFC /* UserLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginViewController.h; sourceTree = "<group>"; };
+		9D0E0EF71DC6623300707CFC /* UserLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginViewController.m; sourceTree = "<group>"; };
+		9D0E0EF81DC6623300707CFC /* UserLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserLoginViewController.xib; sourceTree = "<group>"; };
+		9D0E0EF91DC6623300707CFC /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		9D0E0EFA1DC6623300707CFC /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		9D0E0EFB1DC6623300707CFC /* UserRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterViewController.h; sourceTree = "<group>"; };
+		9D0E0EFC1DC6623300707CFC /* UserRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterViewController.m; sourceTree = "<group>"; };
+		9D0E0EFD1DC6623300707CFC /* UserRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserRegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +175,7 @@
 				9D0E0CA51DC64FFA00707CFC /* AppDelegate.m */,
 				9D0E0CA71DC64FFA00707CFC /* ViewController.h */,
 				9D0E0CA81DC64FFA00707CFC /* ViewController.m */,
-				9D0E0CB81DC6502100707CFC /* Classes */,
+				9D0E0EAF1DC6621700707CFC /* Classes */,
 				9D0E0CAA1DC64FFA00707CFC /* Main.storyboard */,
 				9D0E0CAD1DC64FFA00707CFC /* Assets.xcassets */,
 				9D0E0CAF1DC64FFA00707CFC /* LaunchScreen.storyboard */,
@@ -80,9 +193,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9D0E0CB81DC6502100707CFC /* Classes */ = {
+		9D0E0EAF1DC6621700707CFC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9D0E0EB01DC6623300707CFC /* AddEditRecruiter2Cell.h */,
+				9D0E0EB11DC6623300707CFC /* AddEditRecruiter2Cell.m */,
+				9D0E0EB21DC6623300707CFC /* AddEditRecruiter2Cell.xib */,
+				9D0E0EB31DC6623300707CFC /* AddEditRecruiter2ViewController.h */,
+				9D0E0EB41DC6623300707CFC /* AddEditRecruiter2ViewController.m */,
+				9D0E0EB51DC6623300707CFC /* AddEditRecruiter2ViewController.xib */,
+				9D0E0EB61DC6623300707CFC /* AddNewManager.h */,
+				9D0E0EB71DC6623300707CFC /* AddNewManager.m */,
+				9D0E0EB81DC6623300707CFC /* CallsInfoManager.h */,
+				9D0E0EB91DC6623300707CFC /* CallsInfoManager.m */,
+				9D0E0EBA1DC6623300707CFC /* Constants.h */,
+				9D0E0EBB1DC6623300707CFC /* Constants.m */,
+				9D0E0EBC1DC6623300707CFC /* DataManager.h */,
+				9D0E0EBD1DC6623300707CFC /* DataManager.m */,
+				9D0E0EBE1DC6623300707CFC /* DateSelectionViewController.h */,
+				9D0E0EBF1DC6623300707CFC /* DateSelectionViewController.m */,
+				9D0E0EC01DC6623300707CFC /* DateSelectionViewController.xib */,
+				9D0E0EC11DC6623300707CFC /* DeleteCallsManager.h */,
+				9D0E0EC21DC6623300707CFC /* DeleteCallsManager.m */,
+				9D0E0EC31DC6623300707CFC /* DeleteRecruiterManager.h */,
+				9D0E0EC41DC6623300707CFC /* DeleteRecruiterManager.m */,
+				9D0E0EC51DC6623300707CFC /* EditCallsManager.h */,
+				9D0E0EC61DC6623300707CFC /* EditCallsManager.m */,
+				9D0E0EC71DC6623300707CFC /* EnterCommentsViewController.h */,
+				9D0E0EC81DC6623300707CFC /* EnterCommentsViewController.m */,
+				9D0E0EC91DC6623300707CFC /* EnterCommentsViewController.xib */,
+				9D0E0ECA1DC6623300707CFC /* LoginUserManager.h */,
+				9D0E0ECB1DC6623300707CFC /* LoginUserManager.m */,
+				9D0E0ECC1DC6623300707CFC /* LookupRecruitersManager.h */,
+				9D0E0ECD1DC6623300707CFC /* LookupRecruitersManager.m */,
+				9D0E0ECE1DC6623300707CFC /* RecruiterCallsModel.h */,
+				9D0E0ECF1DC6623300707CFC /* RecruiterCallsModel.m */,
+				9D0E0ED01DC6623300707CFC /* RecruiterCell.h */,
+				9D0E0ED11DC6623300707CFC /* RecruiterCell.m */,
+				9D0E0ED21DC6623300707CFC /* RecruiterCell.xib */,
+				9D0E0ED31DC6623300707CFC /* RecruiterModel.h */,
+				9D0E0ED41DC6623300707CFC /* RecruiterModel.m */,
+				9D0E0ED51DC6623300707CFC /* RecruitersHelper.h */,
+				9D0E0ED61DC6623300707CFC /* RecruitersHelper.m */,
+				9D0E0ED71DC6623300707CFC /* RegisterUserManager.h */,
+				9D0E0ED81DC6623300707CFC /* RegisterUserManager.m */,
+				9D0E0ED91DC6623300707CFC /* SaveCalls2Cell.h */,
+				9D0E0EDA1DC6623300707CFC /* SaveCalls2Cell.m */,
+				9D0E0EDB1DC6623300707CFC /* SaveCalls2Cell.xib */,
+				9D0E0EDC1DC6623300707CFC /* SaveCalls2Model.h */,
+				9D0E0EDD1DC6623300707CFC /* SaveCalls2Model.m */,
+				9D0E0EE11DC6623300707CFC /* SaveCalls3ViewController.h */,
+				9D0E0EE21DC6623300707CFC /* SaveCalls3ViewController.m */,
+				9D0E0EE31DC6623300707CFC /* SaveCalls3ViewController.xib */,
+				9D0E0EE41DC6623300707CFC /* SaveCallsManager.h */,
+				9D0E0EE51DC6623300707CFC /* SaveCallsManager.m */,
+				9D0E0EE91DC6623300707CFC /* SearchContentManager.h */,
+				9D0E0EEA1DC6623300707CFC /* SearchContentManager.m */,
+				9D0E0EEB1DC6623300707CFC /* SearchDateManager.h */,
+				9D0E0EEC1DC6623300707CFC /* SearchDateManager.m */,
+				9D0E0EED1DC6623300707CFC /* SearchNameManager.h */,
+				9D0E0EEE1DC6623300707CFC /* SearchNameManager.m */,
+				9D0E0EEF1DC6623300707CFC /* SearchViewController.h */,
+				9D0E0EF01DC6623300707CFC /* SearchViewController.m */,
+				9D0E0EF11DC6623300707CFC /* SearchViewController.xib */,
+				9D0E0EF21DC6623300707CFC /* StringEscapeModel.h */,
+				9D0E0EF31DC6623300707CFC /* StringEscapeModel.m */,
+				9D0E0EF41DC6623300707CFC /* UpdateExistingManager.h */,
+				9D0E0EF51DC6623300707CFC /* UpdateExistingManager.m */,
+				9D0E0EF61DC6623300707CFC /* UserLoginViewController.h */,
+				9D0E0EF71DC6623300707CFC /* UserLoginViewController.m */,
+				9D0E0EF81DC6623300707CFC /* UserLoginViewController.xib */,
+				9D0E0EF91DC6623300707CFC /* UserModel.h */,
+				9D0E0EFA1DC6623300707CFC /* UserModel.m */,
+				9D0E0EFB1DC6623300707CFC /* UserRegisterViewController.h */,
+				9D0E0EFC1DC6623300707CFC /* UserRegisterViewController.m */,
+				9D0E0EFD1DC6623300707CFC /* UserRegisterViewController.xib */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -146,9 +331,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0E0F1B1DC6623300707CFC /* SaveCalls3ViewController.xib in Resources */,
+				9D0E0EFF1DC6623300707CFC /* AddEditRecruiter2Cell.xib in Resources */,
+				9D0E0F161DC6623300707CFC /* SaveCalls2Cell.xib in Resources */,
 				9D0E0CB11DC64FFA00707CFC /* LaunchScreen.storyboard in Resources */,
 				9D0E0CAE1DC64FFA00707CFC /* Assets.xcassets in Resources */,
+				9D0E0F0C1DC6623300707CFC /* EnterCommentsViewController.xib in Resources */,
+				9D0E0F071DC6623300707CFC /* DateSelectionViewController.xib in Resources */,
 				9D0E0CAC1DC64FFA00707CFC /* Main.storyboard in Resources */,
+				9D0E0F271DC6623300707CFC /* UserLoginViewController.xib in Resources */,
+				9D0E0F011DC6623300707CFC /* AddEditRecruiter2ViewController.xib in Resources */,
+				9D0E0F2A1DC6623300707CFC /* UserRegisterViewController.xib in Resources */,
+				9D0E0F111DC6623300707CFC /* RecruiterCell.xib in Resources */,
+				9D0E0F231DC6623300707CFC /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +354,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0E0F171DC6623300707CFC /* SaveCalls2Model.m in Sources */,
+				9D0E0F201DC6623300707CFC /* SearchDateManager.m in Sources */,
+				9D0E0F1A1DC6623300707CFC /* SaveCalls3ViewController.m in Sources */,
+				9D0E0F0F1DC6623300707CFC /* RecruiterCallsModel.m in Sources */,
+				9D0E0F131DC6623300707CFC /* RecruitersHelper.m in Sources */,
+				9D0E0F251DC6623300707CFC /* UpdateExistingManager.m in Sources */,
+				9D0E0F1C1DC6623300707CFC /* SaveCallsManager.m in Sources */,
+				9D0E0F241DC6623300707CFC /* StringEscapeModel.m in Sources */,
+				9D0E0F081DC6623300707CFC /* DeleteCallsManager.m in Sources */,
+				9D0E0F0E1DC6623300707CFC /* LookupRecruitersManager.m in Sources */,
+				9D0E0F031DC6623300707CFC /* CallsInfoManager.m in Sources */,
+				9D0E0F221DC6623300707CFC /* SearchViewController.m in Sources */,
+				9D0E0F291DC6623300707CFC /* UserRegisterViewController.m in Sources */,
+				9D0E0F061DC6623300707CFC /* DateSelectionViewController.m in Sources */,
+				9D0E0EFE1DC6623300707CFC /* AddEditRecruiter2Cell.m in Sources */,
+				9D0E0F281DC6623300707CFC /* UserModel.m in Sources */,
+				9D0E0F0D1DC6623300707CFC /* LoginUserManager.m in Sources */,
+				9D0E0F001DC6623300707CFC /* AddEditRecruiter2ViewController.m in Sources */,
+				9D0E0F0A1DC6623300707CFC /* EditCallsManager.m in Sources */,
+				9D0E0F041DC6623300707CFC /* Constants.m in Sources */,
+				9D0E0F141DC6623300707CFC /* RegisterUserManager.m in Sources */,
+				9D0E0F1F1DC6623300707CFC /* SearchContentManager.m in Sources */,
 				9D0E0CA91DC64FFA00707CFC /* ViewController.m in Sources */,
+				9D0E0F151DC6623300707CFC /* SaveCalls2Cell.m in Sources */,
 				9D0E0CA61DC64FFA00707CFC /* AppDelegate.m in Sources */,
+				9D0E0F261DC6623300707CFC /* UserLoginViewController.m in Sources */,
+				9D0E0F121DC6623300707CFC /* RecruiterModel.m in Sources */,
+				9D0E0F021DC6623300707CFC /* AddNewManager.m in Sources */,
+				9D0E0F211DC6623300707CFC /* SearchNameManager.m in Sources */,
+				9D0E0F101DC6623300707CFC /* RecruiterCell.m in Sources */,
+				9D0E0F051DC6623300707CFC /* DataManager.m in Sources */,
+				9D0E0F0B1DC6623300707CFC /* EnterCommentsViewController.m in Sources */,
+				9D0E0F091DC6623300707CFC /* DeleteRecruiterManager.m in Sources */,
 				9D0E0CA31DC64FFA00707CFC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +544,7 @@
 				9D0E0CB71DC64FFB00707CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
