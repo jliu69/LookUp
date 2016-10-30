@@ -12,6 +12,7 @@
                 <outlet property="activityIndicator" destination="wAA-uI-1ZH" id="z7L-Fo-Nux"/>
                 <outlet property="createNewButton" destination="llJ-Rn-lMb" id="PC6-ZQ-Z2A"/>
                 <outlet property="nameAgencyLabel" destination="hOO-iG-dPc" id="xuT-Iz-leY"/>
+                <outlet property="noDataLabel" destination="mIe-tq-7pQ" id="Xbm-JT-xao"/>
                 <outlet property="tableView" destination="YMb-9i-XKI" id="ASq-Zo-oaW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -68,6 +69,14 @@
                         <outlet property="delegate" destination="-1" id="ixe-4H-LHO"/>
                     </connections>
                 </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no calling info." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIe-tq-7pQ" userLabel="no results label">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="F0g-Yl-gaq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
                 <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="wAA-uI-1ZH">
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -83,6 +92,7 @@
                 <constraint firstItem="eqb-ZI-Bfe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="36C-pV-r0j"/>
                 <constraint firstItem="wAA-uI-1ZH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8CP-X7-BLX"/>
                 <constraint firstItem="hOO-iG-dPc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="EMp-Ow-LEC"/>
+                <constraint firstItem="mIe-tq-7pQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="F5D-GX-Kgc"/>
                 <constraint firstItem="llJ-Rn-lMb" firstAttribute="top" secondItem="YMb-9i-XKI" secondAttribute="bottom" constant="20" id="Lbw-QY-Zt3"/>
                 <constraint firstItem="YMb-9i-XKI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="LwR-m5-nIg"/>
                 <constraint firstItem="eqb-ZI-Bfe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OtY-qB-0kc"/>
@@ -92,6 +102,8 @@
                 <constraint firstItem="wAA-uI-1ZH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="paa-hC-aX2"/>
                 <constraint firstItem="llJ-Rn-lMb" firstAttribute="width" secondItem="eqb-ZI-Bfe" secondAttribute="width" multiplier="0.6" id="qzu-gK-bEN"/>
                 <constraint firstAttribute="trailing" secondItem="eqb-ZI-Bfe" secondAttribute="trailing" id="rky-3S-qFG"/>
+                <constraint firstItem="mIe-tq-7pQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="xLP-nR-Q1u"/>
+                <constraint firstAttribute="trailing" secondItem="mIe-tq-7pQ" secondAttribute="trailing" constant="10" id="yNn-3Q-u45"/>
                 <constraint firstItem="llJ-Rn-lMb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zeU-iZ-eVF"/>
                 <constraint firstAttribute="trailing" secondItem="YMb-9i-XKI" secondAttribute="trailing" constant="10" id="zte-Su-ir1"/>
             </constraints>

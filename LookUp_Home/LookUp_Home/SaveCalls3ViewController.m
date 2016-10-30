@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *createNewButton;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (weak, nonatomic) IBOutlet UILabel *noDataLabel;
 
 @property (strong, nonatomic) NSArray *rowsArray;
 @property (strong, nonatomic) EnterCommentsViewController *commentsVC;
@@ -49,6 +50,8 @@
     _rowsArray = [NSArray array];
     _commentsVC = nil;
     _selectedCallsItem = nil;
+    
+    _noDataLabel.hidden = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -146,6 +149,8 @@
     [_commentsVC removeFromParentViewController];
     _commentsVC = nil;
     
+    [_activityIndicator startAnimating];
+    
     if (text != nil && text.length > 0) {
         
         if (_selectedCallsItem == nil) {
@@ -156,6 +161,11 @@
         }
         else {
             //-- edit
+            NSLog(@"edit call info : '%@' ", text);
+            NSLog(@"recruiter ID 1 : %d ", _selectedModel.recruiterId);
+            NSLog(@"recruiter ID 2 : %@ ", _selectedCallsItem.recruiterId);
+            NSLog(@"call info ID : %@ ", _selectedCallsItem.rid);
+            
             EditCallsManager *manager = [EditCallsManager new];
             manager.delegate = self;
             [manager editComments:text withId:_selectedCallsItem.rid recruiterId:_selectedCallsItem.recruiterId];
@@ -209,6 +219,11 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         [_tableView reloadData];
         [_activityIndicator stopAnimating];
+        
+        if (_rowsArray.count == 0)
+            _noDataLabel.hidden = NO;
+        else
+            _noDataLabel.hidden = YES;
     });
 }
 

@@ -107,6 +107,8 @@ NSString *searchCodeByDate = @"searchCodeByDate";
 
 - (IBAction)searchByDate {
     
+    _searchBar.text = nil;
+    
     DateSelectionViewController *selectDate = [[DateSelectionViewController alloc] initWithNibName:@"DateSelectionViewController" bundle:nil];
     selectDate.delegate = self;
     [self presentViewController:selectDate animated:YES completion:nil];
@@ -146,7 +148,17 @@ NSString *searchCodeByDate = @"searchCodeByDate";
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar {
     [_searchBar resignFirstResponder];
-    _searchBar.text = nil;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        _searchBar.text = nil;
+        _emptyNoteLabel.hidden = YES;
+        
+        _rowsArray = nil;
+        _rowsArray = [NSArray array];
+        [_tableView reloadData];
+        
+        [_activityIndicator stopAnimating];
+    });
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
@@ -293,7 +305,7 @@ NSString *searchCodeByDate = @"searchCodeByDate";
                                                           message:nil
                                                    preferredStyle:UIAlertControllerStyleActionSheet];
     
-    [_selectionAlert addAction:[UIAlertAction actionWithTitle:@"Save Calling Info" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    [_selectionAlert addAction:[UIAlertAction actionWithTitle:@"Calling Info" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self saveCallingInfo];
         [_selectionAlert dismissViewControllerAnimated:YES completion:nil];
     }]];
